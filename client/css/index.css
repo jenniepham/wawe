@@ -5,21 +5,21 @@ body{
 .header{
     background-color: #4b9115;
     color: #ff9a5b ;
-    height: 80px;
+    height: 150px;
     margin-top: 0px;
 }
 
 h2{
-    font-size: 40px;
-    line-height: 75px;
+    font-size: 70px;
+    line-height: 150px;
     margin-left: 50px;
     font-family: Righteous;
 }
 h4{
-    font-size: 10px;
+    font-size: 18px;
     color: #FFF;
     margin-left: 53px;
-    transform: translateY(-30px);
+    transform: translateY(-50px);
 }
 
 .appBody{
@@ -77,6 +77,7 @@ h4{
     border-radius: 5px;
     background-color: #4b9115;
     margin-bottom: 5px;
+    font-size: 30px;
 }
 
 .text{
