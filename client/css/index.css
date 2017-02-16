@@ -24,19 +24,19 @@ h4{
 
 .appBody{
     margin: 0px auto;
-    width: 400px;
+    width: 700px;
     margin-top: 100px;
 }
 
 #generate{
-    width: 150px;
-    height: 30px;
+    width: 300px;
+    height: 60px;
     border: 0px;
     border-radius: 10px;
     background-color: #4b9115;
     color: #FFF;
     font-family: Lato;
-    font-size: 18px;
+    font-size: 30px;
     box-shadow: 1px 1px 1px #555;
 }
 
@@ -46,33 +46,45 @@ h4{
 
 .result{
     margin: 0px auto;
-    width: 400px;
+    width: 700px;
    
 }
 
 .choice, #search{
-    width: 200px;
-    height: 40px;
+    width: 350px;
+    height: 80px;
     border: 0px;
     border-radius: 5px;
     background-color: #FFF;
     margin-bottom: 5px;
+    font-size:20px;
 }
 
 .remove, #yelp{
-    width: 50px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
     border: 0px;
     border-radius: 5px;
     background-color: #f92420;
     margin-bottom: 5px;
+    font-size: 20px;
 }
 
 .final{
-    width: 50px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
     border: 0px;
     border-radius: 5px;
     background-color: #4b9115;
     margin-bottom: 5px;
+}
+
+.text{
+    font-size: 20px;
+}
+
+#numppl{
+    width:300px;
+    height: 60px;
+    font-size: 20px;
 }
