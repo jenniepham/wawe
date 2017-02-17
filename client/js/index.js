@@ -56,7 +56,7 @@ $('#generate').on('click', function(){
    $(this).attr("style","visibility:hidden");
    
    if(result.length == 1){
-      $('.result').html("<button class='choice'>" + result[0] + "</button> <button class='final'><</button>"  + "<br>");
+      $('.result').html("<button class='choice'>" + result[0] + "</button> <button class='final'><<</button>"  + "<br>");
       $('.result').append("<br><br><p class='text'>Enter your location to find " + result[0] + " restaurants near you.</p><br>");
       $('.result').append("<input id='search' type='text'/> ");
       $('.result').append(" <button id='yelp'>Yelp!</button>");
@@ -71,7 +71,7 @@ $('#generate').on('click', function(){
        else if (food == 'Chicken Wings'){
            food = 'chicken_wings';
        }
-       window.open("https://www.yelp.com/search?find_desc=Restaurants&find_loc=" + location + ",+TX&start=0&cflt=" + food);
+       window.open("https://www.yelp.com/search?find_desc=Restaurants&find_loc=" + location + "&start=0&cflt=" + food);
        
    });
    
